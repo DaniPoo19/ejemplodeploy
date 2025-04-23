@@ -17,11 +17,11 @@
     </x-nav-link>
 
     <x-nav-link href="{{ route('vista1') }}" :active="request()->routeIs('vista1')">
-        Vista 1 - Temperatura
+        Convertir Temperaturas
     </x-nav-link>
 
     <x-nav-link href="{{ route('vista2') }}" :active="request()->routeIs('vista2')">
-        Vista 2 - Bisiestos
+        Caclular Años Bisiestos
     </x-nav-link>
 </div>
 
